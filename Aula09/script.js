@@ -9,7 +9,7 @@ corpo.style.backgroundColor = "black"
 
 
 // var d = window.document.getElementById("msg") <- Variavel feita ById
-var d = document.querySelector("div#msg") // <- Variavel feita querySelecto = ("Chave HTML + Sintex CSS # para id e . para class + nome da class ou id")
+var d = document.querySelector("div#msg") // <- Variavel feita querySelecto = ("tag HTML + Sintex CSS # para id e . para class + nome da class ou id")
 d.style.backgroundColor = "Green"
 
 
