@@ -11,6 +11,15 @@
     <script>
         var nome = prompt('qual seu nome?')
         document.write('<h2>Seu nome tem ' + nome.length + " letras!</h2>")
+        document.write('Seu nome em maiusculas é ' + nome.toLocaleUpperCase() + "!<br>" )
+
+
+    // formatação de numeros
+        var n1 = 1455.3
+
+        document.write(n1.toFixed(2) + "<br>") // 1455.50 - Serve para mostrar quantas casa pós vírgula
+        document.write(n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})) // R$1.455,50 - Serve p colocar o numero no valor monetário do país que quiser. Podia ser {style: 'currency', currency: 'USD'}
+        
     </script>
 </body>
 </html>
